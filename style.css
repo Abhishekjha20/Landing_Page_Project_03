@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #7c7895c7;
+    display: flex;
+}
+
+.part1 {
+    height: 100%;
+    width: 26%;
+    /* background-color: red;  */
+}
+
+.part2 {
+    height: 100%;
+    width: 68%;
+    /* background-color: rgb(123, 0, 255); */
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #63585a6b;
+}
+
+.part3 {
+    height: 100%;
+    width: 7%;
+    /* background-color: green;  */
+}
+
+.text-div {
+    /* height:300px; */
+    position: absolute;
+    width: 430px;
+    /* background-color: red; */
+    left: 7%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.text-div>h1 {
+    font-size: 95px;
+    font-family: monument;
+    font-weight: 800;
+    line-height: 78%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.small-image-div {
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1529680459049-bf0340fa0755?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+.vertical_text {
+    position: absolute;
+    /* width: 100%; */
+    /* background-color: red; */
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    right: -58%;
+    top: -6%;
+}
+
+.vertical_text h1 {
+    font-size: 70px;
+    font-weight: 900;
+    font-family: monument;
+    color: transparent;
+    letter-spacing: 15px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    /* Use of webkit stroke text ke upper bondaries banti hai */
+    text-transform: uppercase;
+
+}
+
+.nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    left: 6%;
+    top: 5%;
+    /* background-color: red; */
+}
+
+.nav img {
+    height: 60px;
+}
+
+.nav h {
+    font-size: 20px;
+    color: #fff;
+    font-family: gilroy;
+}
